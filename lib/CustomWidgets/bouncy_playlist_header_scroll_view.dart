@@ -241,7 +241,8 @@ class BouncyPlaylistHeaderScrollView extends StatelessWidget {
                                                   const SizedBox(width: 5.0),
                                                   Text(
                                                     AppLocalizations.of(
-                                                            context)!
+                                                      context,
+                                                    )!
                                                         .play,
                                                     style: TextStyle(
                                                       fontWeight:
